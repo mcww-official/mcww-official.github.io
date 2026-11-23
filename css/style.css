@@ -180,7 +180,7 @@ a:focus-visible, button:focus-visible {
 .footer-links a { color: #fff; }
 .copy { margin: 0; font-size: 13px; color: #aaa; }
 
-/* ---------- 画面下の固定ナビ ---------- */
+/* ---------- 固定メニュー（スマホ・タブレットは画面下、PCは画面上） ---------- */
 .bottom-nav {
   position: fixed; left: 0; right: 0; bottom: 0; z-index: 50;
   display: grid; grid-template-columns: repeat(5, 1fr);
@@ -194,7 +194,26 @@ a:focus-visible, button:focus-visible {
   font-size: 12px; color: #444; text-decoration: none; line-height: 1.2;
 }
 .bottom-nav a[aria-current="page"] { color: var(--enji); font-weight: 700; }
-.bn-icon { font-size: 20px; line-height: 1; margin-bottom: 3px; }
+.bn-icon {
+  width: 22px; height: 22px; margin-bottom: 3px; flex: none;
+  fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round;
+}
+
+/* PC（幅1024px以上）：画面下の固定メニューは出さず、同じ内容を画面の上部に小さく置く */
+@media (min-width: 1024px) {
+  :root { --nav-h: 46px; }
+  body { padding-bottom: 0; padding-top: var(--nav-h); }
+  html { scroll-padding-top: calc(var(--nav-h) + 8px); }   /* 目次のリンクで飛んだ先が上のメニューに隠れないように */
+  .bottom-nav {
+    top: 0; bottom: auto; height: var(--nav-h); padding: 0 24px;
+    grid-template-columns: repeat(5, auto); justify-content: end; gap: 4px;
+    border-top: 0; border-bottom: 1px solid var(--line);
+    box-shadow: 0 2px 8px rgba(0,0,0,.06);
+  }
+  .bottom-nav a { flex-direction: row; gap: 6px; padding: 0 12px; font-size: 14px; border-radius: 6px; }
+  .bottom-nav a:hover { background: var(--bg); }
+  .bottom-nav .bn-icon { width: 18px; height: 18px; margin: 0; }
+}
 
 .site-menu {
   position: fixed; inset: 0; z-index: 60;
