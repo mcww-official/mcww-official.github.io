@@ -2,7 +2,7 @@
 :root {
   --enji: #8d223c;          /* ロゴのえんじ（logo.png から） */
   --seiryu: #2f5a7e;        /* 青龍：落ち着いた藍 */
-  --suzaku: #b0472f;        /* 朱雀：えんじと重ならない朱 */
+  --suzaku: #b3302c;        /* 朱雀：えんじと区別できる、落ち着いた赤 */
   --byakko: #ffffff;
   --genbu: #000000;
   --bg: #f7f4ef;
