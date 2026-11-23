@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow"><!-- 確認用：本番公開のときに消す（更新手順書 6章） -->
+<title>麻雀共同体WW（ダブル）</title>
+<meta name="description" content="関西・大阪中心の競技麻雀のプロ団体「麻雀共同体WW」。毎週水曜のWW道場は予約不要・飛び入り参加OK。">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<main id="main">
+
+  <!-- 四神メニュー -->
+  <nav class="shijin" aria-label="メインメニュー">
+    <h1 class="visually-hidden">麻雀共同体WW（ダブル）</h1>
+
+    <a class="tile tile-logo" href="about.html">
+      <span class="tile-box">
+        <img src="img/logo.webp" alt="麻雀共同体WW（ダブル）のロゴ" width="256" height="256"
+             onerror="this.hidden=true;this.nextElementSibling.hidden=false">
+        <span class="logo-fallback" hidden>麻雀共同体<br>WW</span>
+      </span>
+      <span class="tile-label"><span class="tile-god">WWとは</span><span class="tile-desc">団体の名前の由来と想い</span></span>
+    </a>
+
+    <a class="tile tile-seiryu" href="beginners.html">
+      <span class="tile-box">
+        <img src="img/seiryu.webp" alt="青龍の図柄" width="480" height="514" loading="eager"
+             onerror="this.hidden=true;this.nextElementSibling.hidden=false">
+        <span class="tile-fallback" hidden>青龍</span>
+      </span>
+      <span class="tile-label"><span class="tile-god">青龍</span><span class="tile-desc">はじめての方へ</span></span>
+    </a>
+
+    <a class="tile tile-suzaku" href="schedule.html">
+      <span class="tile-box">
+        <img src="img/suzaku.webp" alt="朱雀の図柄" width="480" height="514"
+             onerror="this.hidden=true;this.nextElementSibling.hidden=false">
+        <span class="tile-fallback" hidden>朱雀</span>
+      </span>
+      <span class="tile-label"><span class="tile-god">朱雀</span><span class="tile-desc">スケジュール・イベント</span></span>
+    </a>
+
+    <a class="tile tile-genbu" href="members.html">
+      <span class="tile-box">
+        <img src="img/genbu.webp" alt="玄武の図柄" width="480" height="514"
+             onerror="this.hidden=true;this.nextElementSibling.hidden=false">
+        <span class="tile-fallback" hidden>玄武</span>
+      </span>
+      <span class="tile-label"><span class="tile-god">玄武</span><span class="tile-desc">所属プロ・会員・ルール</span></span>
+    </a>
+
+    <a class="tile tile-byakko" href="results.html">
+      <span class="tile-box">
+        <img src="img/byakko.webp" alt="白虎の図柄" width="480" height="514"
+             onerror="this.hidden=true;this.nextElementSibling.hidden=false">
+        <span class="tile-fallback" hidden>白虎</span>
+      </span>
+      <span class="tile-label"><span class="tile-god">白虎</span><span class="tile-desc">成績・レポート</span></span>
+    </a>
+  </nav>
+
+  <!-- 次のイベント -->
+  <section class="block" aria-labelledby="h-next">
+    <h2 id="h-next">次のイベント</h2>
+    <div id="next-event" class="next-event"><p class="muted">読み込み中…</p></div>
+    <p class="more"><a href="schedule.html">年間スケジュールを見る</a></p>
+  </section>
+
+  <!-- お知らせ -->
+  <section class="block" aria-labelledby="h-news">
+    <h2 id="h-news">お知らせ</h2>
+    <ul id="news-list" class="list"><li class="muted">読み込み中…</li></ul>
+  </section>
+
+  <!-- 最新成績 -->
+  <section class="block" aria-labelledby="h-results">
+    <h2 id="h-results">最新成績</h2>
+    <ul id="results-list" class="list"><li class="muted">読み込み中…</li></ul>
+    <p class="more"><a href="results.html">成績・レポートの一覧へ</a></p>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <ul class="footer-links">
+    <li><a href="contact.html">お問合せ</a></li>
+    <li><a id="line-link" href="contact.html#line">LINEで受け取る</a></li>
+    <li><a href="https://x.com/mcww1502" target="_blank" rel="noopener">X（@mcww1502）</a></li>
+  </ul>
+  <p class="copy">© 麻雀共同体WW（ダブル）</p>
+</footer>
+
+<!-- 画面下の固定ナビ -->
+<nav class="bottom-nav" aria-label="ページ移動">
+  <a href="index.html" aria-current="page"><span class="bn-icon" aria-hidden="true">⌂</span>トップ</a>
+  <a href="beginners.html"><span class="bn-icon" aria-hidden="true">♪</span>はじめて</a>
+  <a href="schedule.html"><span class="bn-icon" aria-hidden="true">▦</span>日程</a>
+  <a href="results.html"><span class="bn-icon" aria-hidden="true">≡</span>成績</a>
+  <a href="#site-menu" id="menu-btn"><span class="bn-icon" aria-hidden="true">☰</span>メニュー</a>
+</nav>
+
+<div id="site-menu" class="site-menu" hidden>
+  <div class="site-menu-inner" role="dialog" aria-modal="true" aria-labelledby="menu-title">
+    <h2 id="menu-title">メニュー</h2>
+    <ul>
+      <li><a href="index.html">トップ</a></li>
+      <li><a href="about.html">WWとは</a></li>
+      <li><a href="beginners.html">はじめての方へ</a></li>
+      <li><a href="schedule.html">スケジュール・イベント</a></li>
+      <li><a href="results.html">成績・レポート</a></li>
+      <li><a href="members.html">所属プロ・会員・ルール</a></li>
+      <li><a href="contact.html">お問合せ</a></li>
+      <li><a href="https://x.com/mcww1502" target="_blank" rel="noopener">X（@mcww1502）</a></li>
+    </ul>
+    <button type="button" id="menu-close">閉じる</button>
+  </div>
+</div>
+
+<script src="js/common.js"></script>
+<script src="js/top.js"></script>
+</body>
+</html>

@@ -1,0 +1,188 @@
+{
+  "kinds": [
+    { "id": "pro-league", "name": "プロリーグ" },
+    { "id": "j-next", "name": "J-NEXT杯" },
+    { "id": "ww-wars", "name": "WWwars" },
+    { "id": "dojo-final", "name": "道場王決定戦" },
+    { "id": "winners-cup", "name": "ウィナーズカップ" },
+    { "id": "dojo", "name": "道場" }
+  ],
+  "years": ["2026年度", "2025年度"],
+  "results": [
+    {
+      "id": "pl-23", "kind": "pro-league", "year": "2026年度",
+      "title": "2026年度前期プロリーグ（第23期）WW King決定戦",
+      "date": "2026-09-20",
+      "top": [{ "rank": "優勝（第23期WW King）", "name": "田中 大介プロ" }],
+      "table": {
+        "head": ["選手", "1回戦", "2回戦", "3回戦", "4回戦", "5回戦", "合計"],
+        "rows": [
+          ["田中 大介", "+46.3", "+41.1", "-58.6", "+12.8", "+15.0", "+56.6"],
+          ["中田 一幸", "-50.3", "+10.1", "-8.0", "+45.7", "+36.6", "+34.1"],
+          ["坂井 準司", "+22.0", "-13.3", "+18.3", "-12.8", "-36.6", "-22.4"],
+          ["酒井 佑介", "-18.0", "-37.9", "+48.3", "-45.7", "-15.0", "-68.3"]
+        ]
+      },
+      "images": [
+        { "src": "img/results/pl23-2.webp", "w": 1200, "h": 676, "alt": "第23期WW King決定戦の成績表" },
+        { "src": "img/results/pl23-1.webp", "w": 867, "h": 930, "alt": "第23期WW Kingの田中大介プロ" }
+      ],
+      "source": "https://mcww2015.com/pro-exam/%e3%83%97%e3%83%ad%e3%83%aa%e3%83%bc%e3%82%b02026%e5%89%8d%e6%9c%9f%ef%bc%88%e7%ac%ac23%e6%9c%9f%ef%bc%89"
+    },
+    {
+      "id": "jn-2026-autumn", "kind": "j-next", "year": "2026年度",
+      "title": "2026年度秋杯：J-NEXT杯オータムカップ",
+      "date": "2026-11-15",
+      "top": [{ "rank": "優勝", "name": "" }],
+      "images": [
+        { "src": "img/results/autumn25.webp", "w": 956, "h": 582, "alt": "オータムカップ優勝者の表彰" }
+      ],
+      "source": "https://mcww2015.com/about/2025%e5%b9%b4%e5%ba%a6%e7%a7%8b%e6%9d%af%ef%bc%9aj-next%e6%9d%af%e3%82%aa%e3%83%bc%e3%82%bf%e3%83%a0%e3%82%ab%e3%83%83%e3%83%97"
+    },
+    {
+      "id": "jn-summer-2026", "kind": "j-next", "year": "",
+      "title": "J-NEXT杯サマーカップ",
+      "date": "2026-08-23",
+      "top": [{ "rank": "優勝", "name": "" }],
+      "images": [
+        { "src": "img/results/summer.webp", "w": 1052, "h": 1092, "alt": "サマーカップ優勝者の表彰" }
+      ],
+      "external": { "label": "成績表（Googleスプレッドシート）", "url": "https://docs.google.com/spreadsheets/d/1323FD_QSkrKCKBYwFl8D-ADGGhYg2HLI/edit?usp=drivesdk&ouid=112782202799188945319&rtpof=true&sd=true" },
+      "source": "https://mcww2015.com/info/summer"
+    },
+    {
+      "id": "jn-2026-spring", "kind": "j-next", "year": "2026年度",
+      "title": "2026年度J-NEXT杯スプリングカップ",
+      "date": "2026-04-19",
+      "top": [{ "rank": "優勝", "name": "" }],
+      "images": [],
+      "note": "成績表は現行HPのページで見られます。",
+      "source": "https://mcww2015.com/about/2025%e5%b9%b4%e5%ba%a6j-next%e6%9d%af%e3%82%b9%e3%83%97%e3%83%aa%e3%83%b3%e3%82%b0%e3%82%ab%e3%83%83%e3%83%97%e6%88%90%e7%b8%be%e8%a1%a8"
+    },
+    {
+      "id": "wc-2025", "kind": "winners-cup", "year": "2025年度",
+      "title": "2025年度マツオカ杯ウィナーズカップ",
+      "date": "2026-03", "dateTodo": true,
+      "top": [{ "rank": "優勝", "name": "卓上の紳士" }],
+      "table": {
+        "head": ["選手", "1回戦", "2回戦", "合計"],
+        "rows": [
+          ["卓上の紳士", "+46.4", "+15.8", "+62.2"],
+          ["のぶちん", "-17.0", "+43.5", "+26.5"],
+          ["榮 克明", "+18.3", "-13.3", "+5.0"],
+          ["白石 卓嗣", "-47.7", "-46.0", "-93.7"]
+        ]
+      },
+      "images": [
+        { "src": "img/results/wc25-2.webp", "w": 1200, "h": 676, "alt": "2025年度ウィナーズカップ決勝の成績表" },
+        { "src": "img/results/wc25-1.webp", "w": 1200, "h": 854, "alt": "2025年度ウィナーズカップの集合写真" }
+      ],
+      "source": "https://mcww2015.com/info/winners-cup"
+    },
+    {
+      "id": "pl-22", "kind": "pro-league", "year": "2025年度",
+      "title": "2025年プロリーグ後期（第22期）WW King決定戦",
+      "date": "2026-02-11",
+      "top": [{ "rank": "優勝（第22期WW King）", "name": "坂井 準司プロ" }],
+      "table": {
+        "head": ["選手", "1回戦", "2回戦", "3回戦", "4回戦", "5回戦", "合計"],
+        "rows": [
+          ["坂井 準司", "+74.9", "+7.4", "-11.8", "+63.2", "+55.5", "+189.2"],
+          ["田中 大介", "-16.1", "+57.1", "+12.3", "+7.5", "-23.8", "+37.0"],
+          ["榮 克明", "+10.5", "-16.5", "-43.3", "-22.6", "+18.1", "-53.8"],
+          ["坂本 健二", "-69.3", "-48.0", "+42.8", "-48.1", "-49.8", "-172.4"]
+        ]
+      },
+      "images": [
+        { "src": "img/results/pl22-2.webp", "w": 1200, "h": 676, "alt": "第22期WW King決定戦の成績表" },
+        { "src": "img/results/pl22-1.webp", "w": 1200, "h": 900, "alt": "第22期WW Kingの坂井準司プロ" }
+      ],
+      "source": "https://mcww2015.com/pro-exam/%e3%83%97%e3%83%ad%e3%83%aa%e3%83%bc%e3%82%b02025%e5%89%8d%e6%9c%9f%ef%bc%88%e7%ac%ac22%e6%9c%9f%ef%bc%89"
+    },
+    {
+      "id": "jn-winter-latest", "kind": "j-next", "year": "",
+      "title": "J-NEXT杯ウィンターカップ（最新の成績）",
+      "date": "2026-02", "dateTodo": true,
+      "top": [{ "rank": "優勝", "name": "" }],
+      "images": [
+        { "src": "img/results/winter-latest.webp", "w": 316, "h": 488, "alt": "ウィンターカップ優勝者の表彰" }
+      ],
+      "source": "https://mcww2015.com/info/winter"
+    },
+    {
+      "id": "wars-2026", "kind": "ww-wars", "year": "2026年度",
+      "title": "2026年度 大三元杯ペアマッチWWwars",
+      "date": "2026-01", "dateTodo": true,
+      "top": [
+        { "rank": "優勝チーム", "name": "のぶしゃか" },
+        { "rank": "ベストドレッサー賞", "name": "さーもんくえすと" }
+      ],
+      "images": [
+        { "src": "img/results/wars26-1.webp", "w": 621, "h": 654, "alt": "2026年度WWwars優勝チーム" },
+        { "src": "img/results/wars26-2.webp", "w": 833, "h": 1214, "alt": "2026年度WWwarsベストドレッサー賞" }
+      ],
+      "source": "https://mcww2015.com/info/ww-wars"
+    },
+    {
+      "id": "pl-21", "kind": "pro-league", "year": "2025年度",
+      "title": "2025年度前期プロリーグ（第21期）WW King決定戦",
+      "date": "2025-09-21",
+      "top": [{ "rank": "優勝（第21期WW King）", "name": "坂井 準司プロ" }],
+      "table": {
+        "head": ["選手", "1回戦", "2回戦", "3回戦", "4回戦", "5回戦", "合計"],
+        "rows": [
+          ["坂井 準司", "-9.4", "+42.2", "+58.3", "+43.5", "+60.7", "+195.3"],
+          ["榮 克明", "+27.5", "-9.5", "-20.6", "+15.3", "+33.2", "+45.9"],
+          ["板川 和俊", "-45.6", "+15.1", "+7.0", "-18.6", "-63.3", "-105.4"],
+          ["中田 一幸", "+27.5", "-48.8", "-44.7", "-40.2", "-31.6", "-137.8"]
+        ]
+      },
+      "images": [
+        { "src": "img/results/pl21-2.webp", "w": 1200, "h": 676, "alt": "第21期WW King決定戦の成績表" },
+        { "src": "img/results/pl21-1.webp", "w": 1200, "h": 800, "alt": "第21期WW Kingの坂井準司プロ" }
+      ],
+      "source": "https://mcww2015.com/pro-exam/%e3%83%97%e3%83%ad%e3%83%aa%e3%83%bc%e3%82%b02025%e5%89%8d%e6%9c%9f%ef%bc%88%e7%ac%ac21%e6%9c%9f%ef%bc%89"
+    },
+    {
+      "id": "jn-2025-winter", "kind": "j-next", "year": "2025年度",
+      "title": "J-NEXT杯ウィンターカップ ２０２５年度成績",
+      "date": "2025-03", "dateTodo": true,
+      "top": [{ "rank": "優勝", "name": "" }],
+      "images": [
+        { "src": "img/results/winter25.webp", "w": 1200, "h": 2102, "alt": "ウィンターカップ優勝者の表彰" }
+      ],
+      "source": "https://mcww2015.com/info/winter"
+    },
+    {
+      "id": "wars-2025", "kind": "ww-wars", "year": "2025年度",
+      "title": "2025年度 大三元杯ペアマッチWWwars",
+      "date": "2025-01", "dateTodo": true,
+      "top": [
+        { "rank": "優勝チーム", "name": "川井塾" },
+        { "rank": "ベストドレッサー賞", "name": "" }
+      ],
+      "images": [
+        { "src": "img/results/wars25-1.webp", "w": 681, "h": 602, "alt": "2025年度WWwars優勝チーム" },
+        { "src": "img/results/wars25-2.webp", "w": 751, "h": 562, "alt": "2025年度WWwarsベストドレッサー賞" }
+      ],
+      "source": "https://mcww2015.com/info/ww-wars"
+    }
+  ],
+  "older": [
+    { "name": "プロリーグ", "url": "https://mcww2015.com/?cat=/13" },
+    { "name": "J-NEXT杯 冬杯", "url": "https://mcww2015.com/?cat=/10" },
+    { "name": "J-NEXT杯 夏杯", "url": "https://mcww2015.com/?cat=/9" },
+    { "name": "J-NEXT杯 秋杯", "url": "https://mcww2015.com/?cat=/226" },
+    { "name": "J-NEXT杯 春杯ほか（当団体について）", "url": "https://mcww2015.com/?cat=/201" },
+    { "name": "WWwars", "url": "https://mcww2015.com/?cat=/160" },
+    { "name": "ウィナーズカップ", "url": "https://mcww2015.com/?cat=/12" },
+    { "name": "MCWW道場", "url": "https://mcww2015.com/?cat=/1" },
+    { "name": "弥生杯", "url": "https://mcww2015.com/?cat=/11" },
+    { "name": "プレミアムバトル", "url": "https://mcww2015.com/?cat=/185" },
+    { "name": "プロアマ春合戦", "url": "https://mcww2015.com/?cat=/7" },
+    { "name": "プロアマ秋合戦", "url": "https://mcww2015.com/?cat=/8" },
+    { "name": "プロアマAuバトル", "url": "https://mcww2015.com/?cat=/223" },
+    { "name": "プロアマPtバトル", "url": "https://mcww2015.com/?cat=/224" },
+    { "name": "特別ワンデー大会", "url": "https://mcww2015.com/?cat=/142" }
+  ]
+}

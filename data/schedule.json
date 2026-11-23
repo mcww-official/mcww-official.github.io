@@ -1,0 +1,21 @@
+[
+  {"date": "2026-04-05", "event": "pro-league", "title": "前期プロリーグ 第1節"},
+  {"date": "2026-04-19", "event": "j-next", "title": "J-NEXT杯 スプリングカップ（春杯）", "result": "results.html#r-jn-2026-spring", "resultLabel": "2026年度"},
+  {"date": "2026-05-10", "event": "pro-league", "title": "前期プロリーグ 第2節"},
+  {"date": "2026-06-14", "event": "pro-league", "title": "前期プロリーグ 第3節"},
+  {"date": "2026-07-19", "event": "pro-league", "title": "前期プロリーグ 第4節"},
+  {"date": "2026-08-02", "event": "pro-league", "title": "前期プロリーグ 最終節"},
+  {"date": "2026-08-23", "event": "j-next", "title": "J-NEXT杯 サマーカップ（夏杯）", "place": "イーソー梅田店", "result": "results.html#r-jn-summer-2026"},
+  {"date": "2026-09-20", "event": "pro-league", "title": "前期プロリーグ 決勝", "result": "results.html#r-pl-23", "resultLabel": "2026年度 第23期"},
+  {"date": "2026-10-04", "event": "pro-league", "title": "後期プロリーグ 第1節"},
+  {"date": "2026-11-01", "event": "pro-league", "title": "後期プロリーグ 第2節"},
+  {"date": "2026-11-15", "event": "j-next", "title": "J-NEXT杯 オータムカップ（秋杯）", "result": "results.html#r-jn-2026-autumn", "resultLabel": "2026年度秋杯"},
+  {"date": "2026-12-06", "event": "pro-league", "title": "後期プロリーグ 第3節", "place": "エンターテイメントスペース大三元"},
+  {"date": "2027-01-10", "event": "pro-league", "title": "後期プロリーグ 第4節", "place": "エンターテイメントスペース大三元"},
+  {"date": "2027-01-17", "event": "ww-wars", "title": "大三元杯ペアマッチ WWwars", "time": "11:30受付 12:00開始", "place": "エンターテイメントスペース大三元"},
+  {"date": "2027-01-24", "event": "pro-league", "title": "後期プロリーグ 最終節", "place": "エンターテイメントスペース大三元"},
+  {"date": "2027-02-11", "event": "pro-league", "title": "後期プロリーグ 決勝", "place": "エンターテイメントスペース大三元"},
+  {"date": "2027-02-21", "event": "j-next", "title": "J-NEXT杯 ウィンターカップ（冬杯）", "time": "11:30受付 12:00開始", "place": "イーソー梅田店"},
+  {"date": "2027-03-07", "event": "dojo-final", "title": "MCWW道場王決定戦"},
+  {"date": "2027-03-21", "event": "winners-cup", "title": "マツオカ杯 ウィナーズカップ", "time": "10:30集合 11:00開始", "place": "マツオカスタジオ"}
+]
